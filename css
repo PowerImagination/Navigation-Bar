@@ -1,0 +1,58 @@
+
+ul {
+    list-style-type: none;
+    margin: 5%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #777;
+  -moz-box-shadow: 5px 5px 15px 5px #412406;
+-webkit-box-shadow: 5px 5px 15px 5px #412406;
+-o-box-shadow: 5px 5px 15px 5px #412406;
+box-shadow: 5px 5px 15px 5px #412406;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=15);
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+    writing-mode: lr-bt;
+}
+
+li a:hover {
+    background-color: #999999;
+    border-radius:10%;
+  
+
+    -moz-box-shadow:10px 10px 5px #000000;
+    -webkit-box-shadow:10px 10px 5px #000000;
+    box-shadow:10px 10px 5px #412406;
+
+
+
+}
+a:active{
+    
+     color: #060e9f;
+   -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+    writing-mode: lr-bt;
+  
+   
+      
+}
+
+
